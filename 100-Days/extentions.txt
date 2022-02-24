@@ -1,0 +1,3 @@
+Prettier
+emmet
+Code Spell Checker
