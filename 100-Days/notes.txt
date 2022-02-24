@@ -1,0 +1,4 @@
+3-26:
+    - code formatting, plugin: use Prettier for code formatting. (option + shift + F)
+    - go to code -> preferences -> settings -> formatter (select prettier)
+    - vscode left bar called activity bar.
