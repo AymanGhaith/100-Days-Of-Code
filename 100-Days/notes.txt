@@ -2,3 +2,15 @@
     - code formatting, plugin: use Prettier for code formatting. (option + shift + F)
     - go to code -> preferences -> settings -> formatter (select prettier)
     - vscode left bar called activity bar.
+
+4-35:
+    white element: element has no content between open and closing tag.
+
+4-37:
+    no throttling: in network tap you can check the website for different connection speed.
+
+4-38:
+    element id naming: use dash notation --> id="part-one".
+
+4-39: 
+    css bold: use font-weight: bold;
