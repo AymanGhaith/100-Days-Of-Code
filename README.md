@@ -8,5 +8,3 @@ This repo will include the following:
 3- Problem solving from leetcode.
 
 Naming should include the section number - video number, ex. 3-51 will indecate the second video in the third section
-
-- 
