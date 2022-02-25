@@ -1,3 +1,6 @@
 - solve leet code algo
 - algo expert
+- read more about git rebase 
+- check verified notification on github
+- unicode (utf-8)
 - 

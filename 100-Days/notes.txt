@@ -10,7 +10,17 @@
     no throttling: in network tap you can check the website for different connection speed.
 
 4-38:
-    element id naming: use dash notation --> id="part-one".
+    element id naming: use dash notation --> id="part-one". all-lowercase
 
 4-39: 
     css bold: use font-weight: bold;
+
+5-41: 
+    <pre>...</pre>: preformatted text
+    "HTML entities": to print > or < ,   &gt;   (greater than)
+
+5-43:
+    text-align: align the content of the element not the element it self, so we can't use it for centering the element.
+    centering: you can use the text-align for a parent element in case of an image (wrap the image with a div)
+    ** CSS structure: try to make it same as html structure, if there is a style for body, make it in the top of the css file.
+
