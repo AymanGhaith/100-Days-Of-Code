@@ -12,15 +12,26 @@
 4-38:
     element id naming: use dash notation --> id="part-one". all-lowercase
 
-4-39: 
+4-39:
     css bold: use font-weight: bold;
 
-5-41: 
+5-41:
     <pre>...</pre>: preformatted text
     "HTML entities": to print > or < ,   &gt;   (greater than)
 
 5-43:
     text-align: align the content of the element not the element it self, so we can't use it for centering the element.
-    centering: you can use the text-align for a parent element in case of an image (wrap the image with a div)
+    centering: you can use the text-align for a parent element in case of an image (wrap the image with a div).
     ** CSS structure: try to make it same as html structure, if there is a style for body, make it in the top of the css file.
+
+6-50:
+    Descendants: Children of children
+    Ancestor: the root or the higher level
+    Sibling: on the same level
+
+6-51
+    Inheritance: in CSS only selected properties are inherited.
+    Cascading: multi css rules applied on the same html element.
+    Specificity: the more specific selector's rule win.
+    preconnect: link type a hint to browsers that the user is likely to need resources from the target resource's origin, to improve user exp.
 

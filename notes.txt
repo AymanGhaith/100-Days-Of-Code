@@ -1,0 +1,5 @@
+** Merging 2 branches:
+    1- Cherry pick one to the other
+    2- Merge them together
+    3- Rebase on top of each other
+
