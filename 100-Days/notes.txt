@@ -35,3 +35,12 @@
     Specificity: the more specific selector's rule win.
     preconnect: link type a hint to browsers that the user is likely to need resources from the target resource's origin, to improve user exp.
 
+7-61
+    CSS Selectors:
+        - type: element name (h1, p)
+        - id: id of element
+        - group: use comma ( , ) to apply on more than one selector, type or id or class ( h1, .red, #item1)
+        - class: class of element
+    CSS Combinator:
+        - Descendants: using space, ex (li p) will select all paragraphs with li ancestor ( not mandatory to be the direct parent)
+        - Child: using greater than ( > ) char, ex ( h2 > p ) will select all paragraphs which has the parent h2
