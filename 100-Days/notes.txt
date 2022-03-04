@@ -30,7 +30,7 @@
     Sibling: on the same level
 
 6-51
-    Inheritance: in CSS only selected properties are inherited.
+    Inheritance: in CSS only selected properties are inherited (width can't be inherited).
     Cascading: multi css rules applied on the same html element.
     Specificity: the more specific selector's rule win.
     preconnect: link type a hint to browsers that the user is likely to need resources from the target resource's origin, to improve user exp.
@@ -58,6 +58,14 @@
         but in case of one of them is inline-block, it will take both margins.
 
 8-68
-    - span element: non-semantic inland element.
+    - span element: non-semantic inline element.
 
+8-69
+    - div element: non-semantic block element.
+    - use semantic tags as much as you can.
 
+8-71
+    - vertical margins can't be applied on inline (non-replaced) element, so need to be change the display.
+    - 2 types of inline elements:
+        1- replaced : like "img", the element replaced by an image from another page (link), vertical margin can be applied.
+        2- non-replaced: like anchor "a"
