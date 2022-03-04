@@ -44,3 +44,20 @@
     CSS Combinator:
         - Descendants: using space, ex (li p) will select all paragraphs with li ancestor ( not mandatory to be the direct parent)
         - Child: using greater than ( > ) char, ex ( h2 > p ) will select all paragraphs which has the parent h2
+
+8-65
+    - inline elements special rules for margin and padding top and bottom:
+        surrounded element's margin ends on the content of the anchor (inline element)
+        if there is padding and the previous block element (p) has no margin, the anchor element will be displayed over the paragraph
+        we can solve this by adding margin for the p element which will push the content of the anchor.
+        but much better is by using the display property of the anchor to block. or much better inline-block.
+    - display: inline-block or block.
+
+8-66
+    - margin collapsing: in block elements there is an issue in vertical margin between 2 elements, it will take the bigger one,
+        but in case of one of them is inline-block, it will take both margins.
+
+8-68
+    - span element: non-semantic inland element.
+
+
