@@ -1,6 +1,6 @@
 body {
   background-color: #f4e9fe;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -26,16 +26,24 @@ main {
   border-radius: 5px;
 }
 
+a {
+  text-decoration: none;
+  padding: 5px;
+  background-color: #FEEFAE;
+  border-radius: 5px;
+}
+
 footer {
   text-align: center;
 }
 
 footer a {
   display: inline-block;
+  text-decoration: none;
   padding: 10px 20px;
-  margin-top: 20px;
   background-color: #f8ca23;
   border-radius: 5px;
+  margin-top: 20px;
 }
 
 footer p {
