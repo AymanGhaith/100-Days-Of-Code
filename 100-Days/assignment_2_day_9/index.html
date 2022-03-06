@@ -1,26 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML and CSS basics summary</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <h1>HTML and CSS Basics Summary</h1>
-        <img src="images/html-css.png" alt="html and css logo">
+      <h1>HTML and CSS Basics Summary</h1>
+      <img src="images/html-css.png" alt="html and css logo" />
     </header>
     <main>
-        <h2>HTML Summary</h2>
+      <h2>HTML Summary</h2>
+      <p>
+        HTML (HyperTextMarkupLanguage) is used to define our page content,
+        structure and meaning. You don't use it for styling purposes. Use CSS
+        for that instead!
+      </p>
+      <ul>
+        <li>HTML uses "elements" to describe (annotate) content</li>
         <p>
-            HTML (HyperTextMarkupLanguage) is used to define our page content, structure and meaning.
-            You don't use it for styling purposes. Use CSS for that instead!
+          HTML elements typically have an opening tag, content and then a
+          closing tag
         </p>
+        <li>You can also have void (empty) elements like images</li>
+        <li>You can also configure elements with attributes</li>
+        <p>
+          There's a long list of available elements but you'll gain experience
+          over time, no worries.
+        </p>
+      </ul>
+      <p>
+        Learn more about all available HTML elements on
+        <a>the MDN HTML element reference</a>.
+      </p>
+      <h2>CSS summary</h2>
+      <p>CSS (Cascading Style Sheets) is used for styling your page content.</p>
+      <ul>
+        <p>Styles are assigned via property-value pairs</p>
+        <p>You can assign styles via the "style" attribute</p>
+        <li>
+          To avoid code duplication, you typically use global styles (e.g. via
+          the "style" element) instead
+        </li>
+        <p>
+          Alternatively, you can work with external sheet files which you "link"
+          to
+        </p>
+        <li>
+          when working with CSS, concepts like "inheritance", "Specificity" and
+          the "Box model" should be understood.
+        </li>
+      </ul>
+      <p>
+        Learn more about all available CSS properties and values on
+        <a>the MDN CSS property reference</a>.
+      </p>
     </main>
     <footer>
-
+      <a>Download PDF summary</a>
+      <p>(c) Acadmined Gmb</p>
     </footer>
-</body>
+  </body>
 </html>
