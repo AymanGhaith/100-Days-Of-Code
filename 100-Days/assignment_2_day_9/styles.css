@@ -20,11 +20,11 @@ h1 {
 
 main {
   width: 70%;
-  padding: 20px;
-  margin: 0 auto;
-  color: white;
+  padding: 32px;
+  margin: 32px auto;
+  color: rgb(248, 241, 218);
   background-color: #774bd7;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 a {
