@@ -81,6 +81,10 @@
     - image size: just set the width, the browser will keep the aspect ratio for the height.
     - padding or margin: used padding for header, because if he used the margin it will collapsed (margin collapsing) with the inner H1 element.
 
-10- 82
+10-82
     - main element center: we can't center it by the text-align because the content (main) is not an inline content, it is a block.
 
+10-83:
+    - lists styles: by default there is margin and left padding.
+    - list styles: you can add left border !! but add it to all list items elements and change the color of what you want special extra important.
+    - style file organizing: put the element selectors first then put the class selectors.
