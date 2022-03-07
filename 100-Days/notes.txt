@@ -84,7 +84,18 @@
 10-82
     - main element center: we can't center it by the text-align because the content (main) is not an inline content, it is a block.
 
-10-83:
+10-83
     - lists styles: by default there is margin and left padding.
     - list styles: you can add left border !! but add it to all list items elements and change the color of what you want special extra important.
     - style file organizing: put the element selectors first then put the class selectors.
+
+10-84
+    - anchor links: can point not only to html page, it also can linked to files to be downloaded.
+    - non-inheritable properties: these in developer tools appears in the inherited section but with some opacity or transparency,
+    not with filled colors same as inherited props.
+
+10-85
+    - bold, strong and em: em and strong are SEMANTIC tags in order to allow screen reader to read the text, but bold is only a style which will not be read.
+    - strong is stronger than em.
+    - strong will add the text-weight: bold, automatically.
+    - use section semantic tag to add sections inside main tag.
