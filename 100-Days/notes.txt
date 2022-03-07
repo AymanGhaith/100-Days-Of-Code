@@ -69,3 +69,6 @@
     - 2 types of inline elements:
         1- replaced : like "img", the element replaced by an image from another page (link), vertical margin can be applied.
         2- non-replaced: like anchor "a"
+
+9-77
+    - link google font before the style file because it is mentioned there.
