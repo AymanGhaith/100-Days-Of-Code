@@ -76,3 +76,8 @@
 9-79
     - text-align: aligns the text content or the inner content (in-line content), but for block content use margin.
     - <h1>text</h1>: text inside the h1 is inline-content, but the h1 element is not.
+
+9-80
+    - image size: just set the width, the browser will keep the aspect ratio for the height.
+    - padding or margin: used padding for header, because if he used the margin it will collapsed (margin collapsing) with the inner H1 element.
+

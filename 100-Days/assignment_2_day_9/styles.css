@@ -5,12 +5,12 @@ body {
 
 header {
   text-align: center;
+  padding: 32px;
   margin-bottom: 30px;
 }
 
-img {
-  width: 200px;
-  height: 150px;
+header img {
+  width: 300px;
 }
 
 h1 {
