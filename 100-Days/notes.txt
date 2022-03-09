@@ -100,4 +100,23 @@
     - strong will add the text-weight: bold, automatically.
     - use section semantic tag to add sections inside main tag.
 
-11-
+11-90
+    - netlify drop: https://app.netlify.com/drop
+
+11-92
+    - fav Icon: try to empty cash and hard reload, will get an 404 error for the favicon
+    - create favicon: favicon generator, favicon.io or any website,
+    - one of the generated icons can be used as bookmark for mobile app.
+    - take the one with ico extension.
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    - following are provided by the favicon.io website.
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+11-93
+    - it is better to use absolute path in case of deploy to server since the folder you deploy is the root folder. /images/tst.png
+    - it is also better for errors if you moved a file from its location.
+    - and for navigating to the root index. just put href="/"
+    - we can use relative path to point to a parent folder using: href="../"
