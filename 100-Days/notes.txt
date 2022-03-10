@@ -127,3 +127,21 @@
 
 6-100
     - homebrew: package installer for mac
+
+6-105
+    - git branch -m newName: change the name of the branch
+    - merging: checkout the destination branch then git merge featureBranch
+
+6-110
+    - reset personal access token:
+        git credential-osxkeychain erase (MacOS keychain)
+        host=github.com
+        protocol=https
+        double enter
+    - git clone link . ----> will add the content of the repo in the current folder.
+    - git clone link -------> will create a new folder (repo name) and the content inside it.
+    - personal access token will be removed after a while
+
+6-111
+    - collaborators: from repo settings, manage access, invite collaborators.
+    - private repo: the collaborators can see now the private repo which they invited to work on of the owner.
