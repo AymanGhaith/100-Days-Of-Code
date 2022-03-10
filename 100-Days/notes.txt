@@ -124,3 +124,6 @@
 6-98
     - terminal and shell are different, terminal is the application you runt other apps into it like shell (zsh)
     - zsh : open new window and choose the mood
+
+6-100
+    - homebrew: package installer for mac
