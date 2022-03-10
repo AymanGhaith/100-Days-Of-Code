@@ -1,41 +1,41 @@
-3-26:
+2-26:
     - code formatting, plugin: use Prettier for code formatting. (option + shift + F)
     - go to code -> preferences -> settings -> formatter (select prettier)
     - vscode left bar called activity bar.
 
-4-35:
+2-35:
     white element: element has no content between open and closing tag.
 
-4-37:
+2-37:
     no throttling: in network tap you can check the website for different connection speed.
 
-4-38:
+2-38:
     element id naming: use dash notation --> id="part-one". all-lowercase
 
-4-39:
+2-39:
     css bold: use font-weight: bold;
 
-5-41:
+2-41:
     <pre>...</pre>: preformatted text
     "HTML entities": to print > or < ,   &gt;   (greater than)
 
-5-43:
+2-43:
     text-align: align the content of the element not the element it self, so we can't use it for centering the element.
     centering: you can use the text-align for a parent element in case of an image (wrap the image with a div).
     ** CSS structure: try to make it same as html structure, if there is a style for body, make it in the top of the css file.
 
-6-50:
+3-50:
     Descendants: Children of children
     Ancestor: the root or the higher level
     Sibling: on the same level
 
-6-51
+3-51
     Inheritance: in CSS only selected properties are inherited (width can't be inherited).
     Cascading: multi css rules applied on the same html element.
     Specificity: the more specific selector's rule win.
     preconnect: link type a hint to browsers that the user is likely to need resources from the target resource's origin, to improve user exp.
 
-7-61
+3-61
     CSS Selectors:
         - type: element name (h1, p)
         - id: id of element
@@ -45,7 +45,7 @@
         - Descendants: using space, ex (li p) will select all paragraphs with li ancestor ( not mandatory to be the direct parent)
         - Child: using greater than ( > ) char, ex ( h2 > p ) will select all paragraphs which has the parent h2
 
-8-65
+3-65
     - inline elements special rules for margin and padding top and bottom:
         surrounded element's margin ends on the content of the anchor (inline element)
         if there is padding and the previous block element (p) has no margin, the anchor element will be displayed over the paragraph
@@ -53,57 +53,57 @@
         but much better is by using the display property of the anchor to block. or much better inline-block.
     - display: inline-block or block.
 
-8-66
+3-66
     - margin collapsing: in block elements there is an issue in vertical margin between 2 elements, it will take the bigger one,
         but in case of one of them is inline-block, it will take both margins.
 
-8-68
+3-68
     - span element: non-semantic inline element.
 
-8-69
+3-69
     - div element: non-semantic block element.
     - use semantic tags as much as you can.
 
-8-71
+3-71
     - vertical margins can't be applied on inline (non-replaced) element, so need to be change the display.
     - 2 types of inline elements:
         1- replaced : like "img", the element replaced by an image from another page (link), vertical margin can be applied.
         2- non-replaced: like anchor "a"
 
-9-77
+4-77
     - link google font before the style file because it is mentioned there.
 
-9-79
+4-79
     - text-align: aligns the text content or the inner content (in-line content), but for block content use margin.
     - <h1>text</h1>: text inside the h1 is inline-content, but the h1 element is not.
 
-9-80
+4-80
     - image size: just set the width, the browser will keep the aspect ratio for the height.
     - padding or margin: used padding for header, because if he used the margin it will collapsed (margin collapsing) with the inner H1 element.
 
-10-82
+4-82
     - main element center: we can't center it by the text-align because the content (main) is not an inline content, it is a block.
 
-10-83
+4-83
     - lists styles: by default there is margin and left padding.
     - list styles: you can add left border !! but add it to all list items elements and change the color of what you want special extra important.
     - style file organizing: put the element selectors first then put the class selectors.
 
-10-84
+4-84
     - anchor links: can point not only to html page, it also can linked to files to be downloaded.
     - non-inheritable properties: these in developer tools appears in the inherited section but with some opacity or transparency,
     not with filled colors same as inherited props.
 
-10-85
+4-85
     - bold, strong and em: em and strong are SEMANTIC tags in order to allow screen reader to read the text, but bold is only a style which will not be read.
     - strong is stronger than em.
     - strong will add the text-weight: bold, automatically.
     - use section semantic tag to add sections inside main tag.
 
-11-90
+5-90
     - netlify drop: https://app.netlify.com/drop
 
-11-92
+5-92
     - fav Icon: try to empty cash and hard reload, will get an 404 error for the favicon
     - create favicon: favicon generator, favicon.io or any website,
     - one of the generated icons can be used as bookmark for mobile app.
@@ -115,8 +115,12 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
-11-93
+5-93
     - it is better to use absolute path in case of deploy to server since the folder you deploy is the root folder. /images/tst.png
     - it is also better for errors if you moved a file from its location.
     - and for navigating to the root index. just put href="/"
     - we can use relative path to point to a parent folder using: href="../"
+
+6-98
+    - terminal and shell are different, terminal is the application you runt other apps into it like shell (zsh)
+    - zsh : open new window and choose the mood
