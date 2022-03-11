@@ -145,3 +145,6 @@
 6-111
     - collaborators: from repo settings, manage access, invite collaborators.
     - private repo: the collaborators can see now the private repo which they invited to work on of the owner.
+
+7-117
+    - check MDN documents and website structure.
