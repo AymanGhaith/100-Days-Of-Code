@@ -72,6 +72,7 @@
 
 4-77
     - link google font before the style file because it is mentioned there.
+    - link of shared css before the page css
 
 4-79
     - text-align: aligns the text content or the inner content (in-line content), but for block content use margin.
@@ -148,3 +149,9 @@
 
 7-117
     - check MDN documents and website structure.
+
+7-118
+    - if you have inline and block elements on the same line, make them both blocks, <div><a></a></div>
+    - link of shared css before the page css
+    - try to put the body margin to 0.
+    - text-shadow: same as box-shadow but for the text.
