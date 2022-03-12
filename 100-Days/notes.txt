@@ -158,3 +158,8 @@
 
 7-120
     -flex-flow: row nowrap; flex-direction and flex-wrap
+
+7-124
+    - background-size: cover, to cover the entire element
+    - background-position: center,
+
