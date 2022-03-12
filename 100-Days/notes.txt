@@ -155,3 +155,6 @@
     - link of shared css before the page css
     - try to put the body margin to 0.
     - text-shadow: same as box-shadow but for the text.
+
+7-120
+    -flex-flow: row nowrap; flex-direction and flex-wrap
