@@ -6,7 +6,7 @@
 }
 
 #hero-content {
-    width: 500px;
+    width: 900px;
     margin: 0 auto;
     padding: 50px 0;
     text-align: center;
@@ -15,4 +15,35 @@
     border-radius: 8px;
     position: relative;
     top: 200px;
+}
+
+#hero-content h1 {
+    margin: 0;
+    color: white;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    text-transform: capitalize;
+}
+
+#hero-content p {
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+}
+
+#hero-content a {
+    text-decoration: none;
+    background-color: rgb(255, 251, 0);
+    padding: 12px 24px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8x rgb(68, 67, 67);
+}
+
+#hero-content a:hover {
+    background-color: rgb(255, 238, 0);
 }
