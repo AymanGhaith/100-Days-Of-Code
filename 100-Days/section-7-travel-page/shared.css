@@ -10,6 +10,21 @@ ul {
     margin: 0;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+}
+
+header ul {
+    display: flex;
+}
+
+header li{
+    margin-left: 20px;
+}
+
 #page-logo a {
     padding: 10px;
     color: rgb(245, 243, 160);
