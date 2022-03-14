@@ -171,4 +171,7 @@
     - don't forget to fix the box sizing prop.
     - try always to add text and box shadow as will as the border radius.
 
-7-131
+7-132
+    - for travel website, highlight section, you can consider the images blocks as un-ordered list <ul>
+    - for the ul use an ID to distinguish it, but for LIs use classes.
+    - try to put the IDs and Classes during building the html structure, the section has ID, the UL has ID, the li has class.
