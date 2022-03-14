@@ -175,3 +175,15 @@
     - for travel website, highlight section, you can consider the images blocks as un-ordered list <ul>
     - for the ul use an ID to distinguish it, but for LIs use classes.
     - try to put the IDs and Classes during building the html structure, the section has ID, the UL has ID, the li has class.
+
+7-134
+    - minimizing the height of 2 images with the same width, the higher image will have the smaller width.
+    this is because when you set the same height, the taller one will minimize the width as you minimizing the height,
+    so the width will keep shrink more the shortest one.
+    - putting the image width 100% inside flex row, will give them the same width. (divided by their number)
+
+7-135
+    - object-fit prop: fill is the default.
+        fill: image resized to fill the container, aspect ratio will be changed
+        contain: aspect ration remains, but image will be resized to fit the container, it will leave empty spaces.
+        cover: aspect ratio remains, it will fill the container, but it will be cropped because it is zoomed (bigger than the container).¡
