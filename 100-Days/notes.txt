@@ -157,7 +157,7 @@
     - text-shadow: same as box-shadow but for the text.
 
 7-120
-    -flex-flow: row nowrap; flex-direction and flex-wrap
+    - flex-flow: row no-wrap; flex-direction and flex-wrap
 
 7-124
     - background-size: cover, to cover the entire element
@@ -167,5 +167,8 @@
     - box-sizing: in sizing it is better to include the border and the padding in the width calculations, so box-sizing: border-box.
 
 7-130
-    - to move hero image, make the header position absolute (out of the document flow), then it will take its place
+    - to move hero image, make the header position absolute (out of the document flow), then it will take its place.
     - don't forget to fix the box sizing prop.
+    - try always to add text and box shadow as will as the border radius.
+
+7-131
