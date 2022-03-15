@@ -51,3 +51,20 @@ header li a:hover {
     text-decoration: none;
     text-transform: capitalize;
 }
+
+footer {
+    background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+    padding: 36px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    margin: 0 50px;
+}
+footer img {
+    height: 80px;
+}

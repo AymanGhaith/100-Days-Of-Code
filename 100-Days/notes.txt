@@ -187,3 +187,18 @@
         fill: image resized to fill the container, aspect ratio will be changed
         contain: aspect ration remains, but image will be resized to fit the container, it will leave empty spaces.
         cover: aspect ratio remains, it will fill the container, but it will be cropped because it is zoomed (bigger than the container).¡
+
+7-138
+    - there is a white space between the 2 sections, it is related to margin collapsing.
+    - it happen because of the h2 element margin, it overwrite the parent margin.
+    - since the parent (section) has no margin, it collapsed.
+    - adding padding to the parent section will solve the issue and will contain every thing inside it.
+
+7-139
+    - modern websites background are not solid simple colors, it more vivid
+    - linear gradient: will give much better background.
+    - it can be added using css functions linear-gradient:
+
+7-142
+    - use margin: when the needed is the space between elements.
+    - use padding: for space with the border
