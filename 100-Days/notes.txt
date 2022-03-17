@@ -202,3 +202,13 @@
 7-142
     - use margin: when the needed is the space between elements.
     - use padding: for space with the border
+
+7-145
+    - position: static, is the default, so when needed for nav for example to remove the position, use it to overwrite the behavior.
+
+7-147
+    - border radius: images inside radius border (image inside li or a container) exceeds the border (overflow) so it need to be handled.
+    - default css values, it is needed when we want to overwrite another behavior, to reset the behavior.
+    - overflow: default is visible.
+    - overflow: hidden (for the container). to hide the extra part which is outside the radius.
+
