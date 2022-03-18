@@ -232,3 +232,12 @@
     - decimal number: &#8592;
     - hexadecimal: &#x2190;
     - read this https://www.w3schools.com/charsets/default.asp
+
+7-156
+    - More about the position property => https://academind.com/tutorials/the-position-property/
+
+    - Flexbox - Flex Container => https://academind.com/tutorials/flexbox-basics-container/
+
+    - Flexbox - Flex Items => https://academind.com/tutorials/flexbox-flex-items/
+
+    - Comparing Flexbox and the Grid => https://academind.com/tutorials/css-grid-vs-flexbox/
