@@ -241,3 +241,11 @@
     - Flexbox - Flex Items => https://academind.com/tutorials/flexbox-flex-items/
 
     - Comparing Flexbox and the Grid => https://academind.com/tutorials/css-grid-vs-flexbox/
+
+8-161
+    - Add an id to the header, because when add the mobile design you need another header.
+    - Add section for the core elements, since there might be other sections.
+    - Add article inside the li, to be more semantic, individual content inside the individual card (image, h2, button)
+    - Put the h2 and the button in one div to make the styling easier.
+    - buttons, use anchor tag with btn class for button behavior.
+

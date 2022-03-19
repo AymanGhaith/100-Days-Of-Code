@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-nav {
+header {
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;
