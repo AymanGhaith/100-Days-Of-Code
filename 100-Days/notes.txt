@@ -249,3 +249,7 @@
     - Put the h2 and the button in one div to make the styling easier.
     - buttons, use anchor tag with btn class for button behavior.
 
+8-163
+    - flex used for 1 dimensional layout.
+    - grid used for 2 dimensional layout.
+    - use grid for display the main section.
