@@ -253,3 +253,9 @@
     - flex used for 1 dimensional layout.
     - grid used for 2 dimensional layout.
     - use grid for display the main section.
+
+8-168
+    - em unit: if it is for font-size, then it calculated relative to the parent font-size,
+        if it used for other property than the font-size, it will be calculated relative to the font-size of the same element.
+    - percentage unit, in case of font-size, it will be relative to the font-size of the parent
+        if it used for other property, such as the padding, it will be relative to the width of the parent.
