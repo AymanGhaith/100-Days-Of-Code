@@ -259,3 +259,27 @@
         if it used for other property than the font-size, it will be calculated relative to the font-size of the same element.
     - percentage unit, in case of font-size, it will be relative to the font-size of the parent
         if it used for other property, such as the padding, it will be relative to the width of the parent.
+
+8-171
+    - Responsive, Mobile first, Desktop first.
+    - portrait: smartphone(480px), tablet(768px)
+    - landscape notebook (1024px), desktop(1200px), TV(>1200)
+    - Mobile first: use it for traditional approach, office based audience and feature-rich websites.
+    - Mobile first: ( mobile --->768px--->1200px----> desktop), use min-width with @media
+    - Desktop first: use it for functional approach, lifestyle/news audience and content based.
+    - Desktop first: (desktop --->1200px--->768px----> mobile), use max-width with @media
+
+8-172
+    - media query should be in the end of the css file to not be overwritten by the original css.
+    - make the order of thd rules in the media query same as in css file.
+
+8-174
+    - internal link:
+    - target selector:
+
+8-175
+    - menu button: it is better to be anchor since it will make navigation.
+    - inline elements (span): inline elements occupy as much space as needed,
+        if there is no content they will not be displayed even if there is height and width and background color.
+    - burger menu: it can be done without flex, you can change the view of the span elements to be "block".
+
