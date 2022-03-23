@@ -283,3 +283,12 @@
         if there is no content they will not be displayed even if there is height and width and background color.
     - burger menu: it can be done without flex, you can change the view of the span elements to be "block".
 
+8-176
+    - use aside tag for the side drawer.
+    - side-drawer should occupy the entire page.
+    - side-drawer should be taken out of the document flow (position fixed or absolute)
+    - display none or removing the fixed position will return hide the drawer and show the
+8-177
+8-178
+
+9-182
