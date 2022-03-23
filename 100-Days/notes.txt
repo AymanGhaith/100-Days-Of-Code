@@ -288,7 +288,14 @@
     - side-drawer should occupy the entire page.
     - side-drawer should be taken out of the document flow (position fixed or absolute)
     - display none or removing the fixed position will return hide the drawer and show the
+
 8-177
+    - url fragment (URL.hash): is a piece of the url,
+    The hash property of the URL interface is a USVString containing a '#' followed by the fragment identifier of the URL.
+
 8-178
+    - css target selector: #side-drawer:target  --> works if this ID (side-drawer) added to the url in the browser
+    - in case of showing the side-drawer: first make the display: none, then when selector work make it block.
+
 
 9-182
