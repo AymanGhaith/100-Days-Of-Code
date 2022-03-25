@@ -298,4 +298,15 @@
     - in case of showing the side-drawer: first make the display: none, then when selector work make it block.
 
 
-9-182
+9-185
+    - make website beautiful
+    - try to put more empty space around the text content
+    - try to minimize the margin between related elements
+
+9-186
+    - font family, size, weight and color are important aspects for fonts
+    - when selecting font from google, choose the category then use the font with more styles, because it has more details,
+    and this will minimize the number of fonts.
+    - when specify font family, make the fall back font the same category of the font, sans-serif or monospace
+
+9-18
