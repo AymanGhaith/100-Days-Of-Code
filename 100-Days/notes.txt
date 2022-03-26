@@ -309,4 +309,12 @@
     and this will minimize the number of fonts.
     - when specify font family, make the fall back font the same category of the font, sans-serif or monospace
 
-9-18
+9-187
+    - always use grey in backgrounds and make greyish black, not pure black, also it keep the focus of other header h1 or titles.
+    - primary color, this color used for the site main color
+    - accent colors:
+
+9-188
+    - CSS variables: --color-grey-100
+    - values start from 50 to 900, 50 is light color value and 900 is dark level value
+
