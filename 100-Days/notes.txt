@@ -318,3 +318,38 @@
     - CSS variables: --color-grey-100
     - values start from 50 to 900, 50 is light color value and 900 is dark level value
 
+9-189
+    - if you want to make size variables, font size for example, then --size-1 will equal to the smallest font in the page, and --size-5 will be the largest
+
+9-192
+    - transformation: move/change appearance of element, e.g hover, so when hover for example, set scale(2) to make the size bigger the double.
+     or rotate(180) to rotate the element. (Applied to the event triggering the transition)
+    - transition: transition from initial to transformed state (Applied to the initial state)
+    - shorthand property: is the property with more than one value for more than one property, like transition, box-shadow, border: 1px solid red;
+    - transition: transformation 0.5s ease-out 1s;
+        1- property, this transition will applied to the transformation which put before on the same element, which in this case the size increasing.
+        2- duration, how long the transition should take.
+        3- timing function, ease-out, start fast and end slowly
+        4- delay, should the transaction start directly?
+    transition: background-color 0.5s ease-in-out;
+        .button {
+            transition: background-color 0.5s ease-in-out;
+        }
+        .button:hover {
+            background-color: var(--color-primary-700);
+        }
+
+    transition: transform 0.5s ease-out;
+        .card-container {
+            transition: transform 0.5s ease-out;
+        }
+        .card-container:hover {
+            transform: scale(1.05)
+        }
+
+    - ** important: you can't put 2 transition to the same selector, because it will be overwritten.
+
+9-193
+    - SVG: Scalable Vector Units, XML markup language to describe 2D vector graphics.
+
+
