@@ -352,4 +352,23 @@
 9-193
     - SVG: Scalable Vector Units, XML markup language to describe 2D vector graphics.
 
+10-199
+    - form action: if did not filled it will add a "?" question mark to the same link and make the request.
+    - action added after the domain in the URL
+    - methods: GET, POST
+    - GET, might be used to get a new page with different data,
+    - POST request, by default , there is no data will be attached to the request, unless you define name for the input elements.
+    - POST method: ---> Form Data in the body of the request. (in the payload tab)
+    - GET method: ----> Query String Parameters, and will be in the URL text after the "?" and separated by "&". (in the payload tab)
 
+10-200
+    - box-sizing: border-box; watch for it in styling.
+
+10-201
+    - using "for" attribute with labels, if you clicked the label it will auto focus the input element.
+
+10-202
+    - font: inherit, it will overwrite the default font assigned to the buttons
+    - active pseudo-class: when the user start pressing the mouse.
+    - focus pseudo-class: when the input focused.
+    - for form styling, added background-color, font color and border, also styled the focus pseudo-class
