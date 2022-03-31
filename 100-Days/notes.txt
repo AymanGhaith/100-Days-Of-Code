@@ -372,3 +372,4 @@
     - active pseudo-class: when the user start pressing the mouse.
     - focus pseudo-class: when the input focused.
     - for form styling, added background-color, font color and border, also styled the focus pseudo-class
+
