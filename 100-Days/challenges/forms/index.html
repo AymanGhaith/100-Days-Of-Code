@@ -37,48 +37,48 @@
             </li>
             <li>
               <label for="userphone">Your Phone Number</label>
-              <input type="text" name="user-phone" id="userphone" />
+              <input type="tel" name="user-phone" id="userphone" />
             </li>
             <li>
               <label for="message">Your Message</label>
               <textarea name="message" id="message" required></textarea>
             </li>
-            <li>
-              <label for="howfound">How did you find us?</label>
-              <select name="found" id="howfound">
-                <option value="web">Web Search</option>
-                <option value="friend">Friend suggestion</option>
-                <option value="media">TV commercial</option>
-              </select>
-            </li>
           </ul>
+        </section>
+        <section>
+          <label for="channel">How did you find us?</label>
+          <select name="channel" id="channel">
+            <option value="search">Web Search</option>
+            <option value="word-of-mouth">Word of Mouth</option>
+            <option value="other">Other</option>
+          </select>
         </section>
         <section>
           <h2>How should we reply?</h2>
           <ul>
             <li class="form-control-inline">
-              <input type="radio" id="call" name="contact" value="call" />
-              <label for="call">Call me</label>
+              <input type="radio" id="reply-phone" name="reply" value="call" />
+              <label for="reply-phone">Call me</label>
             </li>
             <li class="form-control-inline">
-              <input type="radio" id="email" name="contact" value="email" />
-              <label for="email">Send me an email</label>
+              <input type="radio" id="reply-email" name="reply" value="email" />
+              <label for="reply-email">Send me an email</label>
             </li>
             <li class="form-control-inline">
               <input
                 type="radio"
-                id="noreply"
-                name="contact"
-                value="no-reply"
+                id="reply-none"
+                name="reply"
+                value="none"
               />
-              <label for="noreply">Don't reply</label>
+              <label for="reply-none">Don't reply</label>
             </li>
           </ul>
         </section>
         <section>
           <div class="form-control-inline">
-            <input type="checkbox" id="terms" name="accept-terms" />
-            <label for="terms">Accept Terms</label>
+            <input type="checkbox" id="accept-terms" name="accept-terms" />
+            <label for="accept-terms">Accept Terms</label>
           </div>
         </section>
         <section id="action-buttons">

@@ -8,3 +8,4 @@
 - toggle block comment: (command + /)
 - toggle line comment: ( shift + option + A)
 - copy line above: (shift + option + arrow)
+- show autocompletion: (option + esc)
