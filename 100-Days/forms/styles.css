@@ -26,6 +26,10 @@ label {
     display: block;
 }
 
+textarea {
+    resize: none;
+}
+
 input,
 textarea,
 select {

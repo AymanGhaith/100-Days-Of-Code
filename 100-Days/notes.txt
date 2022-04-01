@@ -404,3 +404,8 @@
     - min and max for number fields is a number
     - min and max for date fields is a date with YYYY-MM-DD format (2000-05-23)
 
+10-212
+    - placeholder: it is better to put example (hint), Ayman ghaith will indicate to put first and last name. and should not be the same of the label.
+    - placeholder should not replace the label, because it is not semantic, and also if there is too many fields you will forget what was the field for.
+    - textarea resize: none, to prevent the resizing which might corrupt the design.
+
