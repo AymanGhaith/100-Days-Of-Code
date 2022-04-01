@@ -408,4 +408,5 @@
     - placeholder: it is better to put example (hint), Ayman ghaith will indicate to put first and last name. and should not be the same of the label.
     - placeholder should not replace the label, because it is not semantic, and also if there is too many fields you will forget what was the field for.
     - textarea resize: none, to prevent the resizing which might corrupt the design.
+    - outline:none, in case you don't want the focus effect the border.
 

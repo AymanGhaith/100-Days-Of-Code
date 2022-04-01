@@ -50,6 +50,7 @@
               <textarea
                 name="message"
                 id="message"
+                rows="6"
                 required
                 minlength="10"
                 maxlength="200"
@@ -68,7 +69,7 @@
         <section>
           <h2>How should we reply?</h2>
           <ul>
-            <li class="form-control-inline">
+            <li class="inline-control">
               <input
                 type="radio"
                 id="reply-phone"
@@ -78,7 +79,7 @@
               />
               <label for="reply-phone">Call me</label>
             </li>
-            <li class="form-control-inline">
+            <li class="inline-control">
               <input
                 type="radio"
                 id="reply-email"
@@ -88,7 +89,7 @@
               />
               <label for="reply-email">Send me an email</label>
             </li>
-            <li class="form-control-inline">
+            <li class="inline-control">
               <input
                 type="radio"
                 id="reply-none"
@@ -100,20 +101,18 @@
             </li>
           </ul>
         </section>
-        <section>
-          <div class="form-control-inline">
-            <input
-              type="checkbox"
-              id="accept-terms"
-              name="accept-terms"
-              required
-            />
-            <label for="accept-terms">Accept Terms</label>
-          </div>
+        <section class="inline-control">
+          <input
+            type="checkbox"
+            id="accept-terms"
+            name="accept-terms"
+            required
+          />
+          <label for="accept-terms">Accept Terms</label>
         </section>
-        <section id="action-buttons">
-          <button type="reset" id="clear">Clear</button>
-          <button id="submit">Submit</button>
+        <section id="from-actions">
+          <button type="reset" class="btn-empty">Clear</button>
+          <button class="btn-filled">Submit</button>
         </section>
       </form>
     </main>
