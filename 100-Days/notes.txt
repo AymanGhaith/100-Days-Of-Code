@@ -390,3 +390,17 @@
 
 10-209
     - think in dividing the form into sections related fields, and if there is a list put it inside a "ul"
+
+10-210
+    - buttons inside form: default behavior is form submit
+    - to overwrite the default behavior, change the type to button.
+    - to clear the form's data, change button type to reset.
+
+10-211
+    - boolean attribute: it is attribute with yes or no of existence, like enabled, hidden, novalidate, required
+    - novalidate form attribute: will disable default form validation, but will not allow number input to have characters.
+    - required: validation.
+    - validations: required, minlength, min, max,
+    - min and max for number fields is a number
+    - min and max for date fields is a date with YYYY-MM-DD format (2000-05-23)
+
