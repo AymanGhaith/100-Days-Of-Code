@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(240, 250, 254);
+}
+
+form {
+    background-color: rgb(246, 249, 255);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
