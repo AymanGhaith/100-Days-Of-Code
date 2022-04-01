@@ -17,7 +17,7 @@
       <h1>Contact Us</h1>
     </header>
     <main>
-      <form action="/" method="GET">
+      <form action="/challenge" method="GET">
         <section>
           <h2>How can we help you?</h2>
           <ul>
@@ -37,17 +37,29 @@
             </li>
             <li>
               <label for="userphone">Your Phone Number</label>
-              <input type="tel" name="user-phone" id="userphone" />
+              <input
+                type="tel"
+                name="user-phone"
+                id="userphone"
+                required
+                minlength="5"
+              />
             </li>
             <li>
               <label for="message">Your Message</label>
-              <textarea name="message" id="message" required></textarea>
+              <textarea
+                name="message"
+                id="message"
+                required
+                minlength="10"
+                maxlength="200"
+              ></textarea>
             </li>
           </ul>
         </section>
         <section>
           <label for="channel">How did you find us?</label>
-          <select name="channel" id="channel">
+          <select name="channel" id="channel" required>
             <option value="search">Web Search</option>
             <option value="word-of-mouth">Word of Mouth</option>
             <option value="other">Other</option>
@@ -57,11 +69,23 @@
           <h2>How should we reply?</h2>
           <ul>
             <li class="form-control-inline">
-              <input type="radio" id="reply-phone" name="reply" value="call" />
+              <input
+                type="radio"
+                id="reply-phone"
+                name="reply"
+                value="call"
+                required
+              />
               <label for="reply-phone">Call me</label>
             </li>
             <li class="form-control-inline">
-              <input type="radio" id="reply-email" name="reply" value="email" />
+              <input
+                type="radio"
+                id="reply-email"
+                name="reply"
+                value="email"
+                required
+              />
               <label for="reply-email">Send me an email</label>
             </li>
             <li class="form-control-inline">
@@ -70,6 +94,7 @@
                 id="reply-none"
                 name="reply"
                 value="none"
+                required
               />
               <label for="reply-none">Don't reply</label>
             </li>
@@ -77,7 +102,12 @@
         </section>
         <section>
           <div class="form-control-inline">
-            <input type="checkbox" id="accept-terms" name="accept-terms" />
+            <input
+              type="checkbox"
+              id="accept-terms"
+              name="accept-terms"
+              required
+            />
             <label for="accept-terms">Accept Terms</label>
           </div>
         </section>
