@@ -18,13 +18,13 @@ label {
 
 input {
     width: 100%;
+    color: rgb(63, 58, 58);
     display: block;
+    padding: 0.25rem;
     margin-bottom: 1rem;
     box-sizing: border-box;
     font: inherit;
     border: 1px solid rgb(184, 184, 184);
-    padding: 0.25rem;
-    color: rgb(63, 58, 58);
 }
 
 input:focus {
@@ -46,4 +46,13 @@ button {
 button:hover {
     background-color: rgb(52, 14, 95);
     border-color: rgb(52, 14, 95);
+}
+
+.form-control-inline {
+    display: flex;
+}
+
+.form-control-inline input {
+    width: auto;
+    margin-right: 0.5rem
 }

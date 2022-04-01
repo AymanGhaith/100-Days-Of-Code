@@ -373,3 +373,17 @@
     - focus pseudo-class: when the input focused.
     - for form styling, added background-color, font color and border, also styled the focus pseudo-class
 
+10-203
+    - email input type: it helps in writing email, and the phone keyboard changed to support email easily, also it helps in validation.
+    - number input: helps in writing numbers, only numbers and again, mobile keyboard changes to numbers page.
+    - types: text, email, number, password, radio, checkbox, file
+
+10-204
+    - Number input step: define how much the increasing or decreasing steps on the element.
+
+10-205
+    - CSS width auto, will make the width based on the content.
+
+10-206
+    - radio and checkbox default selected value is "on"
+    - in case of checkbox, use the same name, and different values, contact=email, contact=phone
