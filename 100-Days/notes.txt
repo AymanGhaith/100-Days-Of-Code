@@ -387,3 +387,6 @@
 10-206
     - radio and checkbox default selected value is "on"
     - in case of checkbox, use the same name, and different values, contact=email, contact=phone
+
+10-209
+    - think in dividing the form into sections related fields, and if there is a list put it inside a "ul"
