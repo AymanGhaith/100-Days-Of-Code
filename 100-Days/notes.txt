@@ -410,4 +410,6 @@
     - textarea resize: none, to prevent the resizing which might corrupt the design.
     - outline:none, in case you don't want the focus effect the border.
 
-11-223
+11-228
+    - script tag, if linked to outer file, you can't put js code inside it <script src="...">NO CODE</script>
+
