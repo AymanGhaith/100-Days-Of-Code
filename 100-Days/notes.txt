@@ -413,4 +413,9 @@
 11-228
     - script tag, if linked to outer file, you can't put js code inside it <script src="...">NO CODE</script>
 
-12-
+12-255
+    - window global variable: give information related to the active browser window/tab
+    - all sub-variables can be accessed directly (as global variables) without the window object (window.alert() === alert ())
+    this is special case for window variable.
+    - document global variable: nested object of window, window.document
+    - holds information about the html (loaded website)
