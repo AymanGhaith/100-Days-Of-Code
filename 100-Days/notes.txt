@@ -419,3 +419,16 @@
     this is special case for window variable.
     - document global variable: nested object of window, window.document
     - holds information about the html (loaded website)
+
+12-256
+    - DOM: Data Object Model
+    - data representation of the parsed html code on the browser
+
+12-257
+    - Extracting the document object using console.log(document) it will present it in HTML like notation
+    - But to extract it as JS object, use console.dir(document).
+    - consol.dir
+
+12-258
+    - document has the body and head main elements with other objects, inside them you will find children, check them.
+
