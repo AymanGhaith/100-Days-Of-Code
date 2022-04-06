@@ -432,3 +432,9 @@
 12-258
     - document has the body and head main elements with other objects, inside them you will find children, check them.
 
+12-259
+    - defer: attribute for the script tag which allow to put the script in the head section
+    and make the js script execution waits until the entire document to be parsed , then execute it.
+
+12-260
+    - 2 ways to select element through js: 1- drilling document object, 2- using query elements.
