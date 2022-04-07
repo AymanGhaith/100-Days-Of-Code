@@ -473,3 +473,10 @@
     innerHTML = "this is a long text " +
         "which can be on multiple lines inside the code.
     - document.createElement(): gives you direct access to the created element - you can use that access to configure it via its properties and methods (e.g. add event listener).
+
+12-274
+    - use addEventListener for element, with the event name and the callback function
+
+12-275
+    - ** input event vs keyup event: input event will trigger any input change in the field even if there was copy paste value
+    but keyup will only work when keyboard is used.

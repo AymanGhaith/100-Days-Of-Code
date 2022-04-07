@@ -1,22 +1,16 @@
-// ADD AN ELEMENT
-// 1. Create the element
-let newAnchorElement = document.createElement("a");
-newAnchorElement.href = "https://www.google.com";
-newAnchorElement.textContent = "Go to Google";
+let pElement = document.querySelector('p');
 
-// 2. Get access to the parent element that should holds the new element
-let firstParagraph = document.querySelector("p");
+function changeParagraphText() {
+    pElement.textContent = 'Clicked!';
+    console.log('clicked');
+}
 
-// 3. Insert the new element into the parent element content
-firstParagraph.append(newAnchorElement);
+pElement.addEventListener('click', changeParagraphText);
 
-// REMOVE ELEMENTS
-// 1. Select the element
-let firstH1Element = document.querySelector('h1');
+let textInput = document.querySelector('input');
 
-// 2. Remove it
-firstH1Element.remove();
+function getInputText() {
+    console.log(textInput.value);
+}
 
-// MOVE ELEMENT
-
-firstParagraph.parentElement.append(firstParagraph)
+textInput.addEventListener('input', getInputText);
