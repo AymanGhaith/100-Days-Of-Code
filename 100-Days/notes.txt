@@ -452,3 +452,10 @@
 
 12-266
     - nextElementSibling: retrieve the next sibling element, also there is the previous one.
+
+12-269
+    - create new element: document.createElement("a").
+    - insert element: select the parent first then parent.append(newAnchorElement);
+
+12-270
+    - remove element: select the element then remove it. firstH1Element.remove()
