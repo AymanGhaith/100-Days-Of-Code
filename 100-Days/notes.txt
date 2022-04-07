@@ -459,3 +459,17 @@
 
 12-270
     - remove element: select the element then remove it. firstH1Element.remove()
+
+12-271
+    - Appending an existing element, will move the element automatically (remove it from it's place, and insert in the new position, after the last one)
+
+12-272
+    - textContent of element, shows just the text of that element and if there is anchor child, it will show only the text of it.
+    <p> this is an example of <a>link</a></p>, here the text content will be "this is an example of link"
+    - and if you assigned it a value like, textContent = <p> this is an example of <a>link</a></p>, it will be shown on the browser as is.
+    - innerHTML will show the inner element. here the innerHTML will be "<p> this is an example of <a>link</a></p>"
+    - if you don't need direct access to the element, then innerHTML will be much better.
+    - for HTML concatenation, use string with plus then go to the next line:
+    innerHTML = "this is a long text " +
+        "which can be on multiple lines inside the code.
+    - document.createElement(): gives you direct access to the created element - you can use that access to configure it via its properties and methods (e.g. add event listener).
