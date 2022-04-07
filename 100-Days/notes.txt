@@ -438,3 +438,17 @@
 
 12-260
     - 2 ways to select element through js: 1- drilling document object, 2- using query elements.
+
+12-261
+    - element.childNodes : get the NodeList, the html elements plus text (spaces between 2 elements, or the text without element) and scripts inside the element .
+    - element.children : get the HTMLCollection, the html elements inside the element.
+    - element.firstElementChild: get the first of the HTMLCollection (html elements).
+    - element.firstChild: get the first of the nodes (NodeList)
+
+12-262
+    - document.querySelector('a'): can take the same CSS selectors.
+    - Important, it only give the first a element, even if there is more than one element match the selector.
+    - document.querySelectorAll('a'): retrieve an Array with all the matched elements not only the first one.
+
+12-266
+    - nextElementSibling: retrieve the next sibling element, also there is the previous one.
