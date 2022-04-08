@@ -9,9 +9,14 @@ function updateRemainingChars(event) {
 
     const remainingChars = maxAllowedChars - enteredTextLength;
     remainingCharsElement.textContent = remainingChars;
-    if (remainingChars <= 10) {
+    if (remainingChars === 0) {
+        remainingCharsElement.classList.add('error');
+        event.target.classList.add('error');
+    } else if (remainingChars <= 10) {
         remainingCharsElement.classList.add('warning');
         event.target.classList.add('warning');
+        remainingCharsElement.classList.remove('error');
+        event.target.classList.remove('error');
     } else {
         remainingCharsElement.classList.remove('warning');
         event.target.classList.remove('warning');

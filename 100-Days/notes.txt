@@ -500,3 +500,11 @@
     1) change the style property of element.
         element.style.backgroundColor = 'red' ---> note backgroundColor not background-color because it is JS variable, and red between quotation to not treated as variable.
     2) add css class
+
+
+13-286
+    - comparison operators can be used with strings 'a'<'b' true. 'c' < 'b' false, it will show characters order.
+    'cb' > 'ab' --> true because c is greater (after) a (ascii comparison)
+
+13-290
+    - remainingCharsElement.classList.remove('warning', 'error'); ( you can put more than class to the remove class list)
