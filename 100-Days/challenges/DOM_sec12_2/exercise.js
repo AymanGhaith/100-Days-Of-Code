@@ -10,16 +10,16 @@ const secondButton = document.getElementById('second-button');
 //    The functions should "console.dir()" the clicked buttons.
 //    - Output the first button by using the variable in which it's stored
 //    - Output the second button WITHOUT using the variable in which it's stored
-function firstButtonEvent() {
+function removeParagraph() {
     console.dir(firstButton);
 }
 
-function secondButtonEvent(event) {
+function changeBackgroundColor(event) {
     console.dir(event.target);
 }
 
-firstButton.addEventListener('click', firstButtonEvent);
-secondButton.addEventListener('click', secondButtonEvent);
+firstButton.addEventListener('click', removeParagraph);
+secondButton.addEventListener('click', changeBackgroundColor);
 
 // 3) Now select and store the paragraphs mentioned in the text you see on the page
 //    (first and third paragraph)
@@ -33,14 +33,15 @@ const thirdParagraph = document.body.children[2].children[3];
 //    - The first button removes the third paragraph (i.e. the <p> prior to it)
 //    - The second button changes the background color of the first paragraph to blue
 
-function firstButtonEvent() {
+function removeParagraph() {
     console.dir(firstButton);
     thirdParagraph.remove();
 }
 
-function secondButtonEvent(event) {
+function changeBackgroundColor(event) {
     console.dir(event.target);
-    firstParagraph.classList.add('blue');
+    firstParagraph.style.backgroundColor = 'blue';
+    // firstParagraph.classList.add('blue');
     // firstParagraph.className = 'blue';
 }
 
