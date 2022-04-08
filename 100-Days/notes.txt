@@ -508,3 +508,32 @@
 
 13-290
     - remainingCharsElement.classList.remove('warning', 'error'); ( you can put more than class to the remove class list)
+
+13-291
+    - flag variables: variables includes true false value.
+    - isLoggedIn the name of the flag variable should look like a question with true false answer.
+
+13-292
+    - Truthy Falsy values:
+    "asdfadf" ->> true ("asdfasdf".length > 0) it is just a shortcut.
+    "" ---> false
+    "0" ---> true
+    0 ---> false
+
+13-293
+    - Loops:
+    1) for
+    2) for .. of -->> used with arrays
+    3) for .. in -->> used with objects
+    4) while
+
+    - for (let i=0; i < 10; i++) ---> i stands for iteration.
+
+13-295
+    - ** for (const user of users) ----> here we are using constant since a new variable will be created in each iteration
+
+13-296
+    - confirm(), same as alert() but with yes-no question buttons.
+
+13-299
+    - as a convention name files like : loops-in-action.js
