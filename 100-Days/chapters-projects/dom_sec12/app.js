@@ -9,8 +9,11 @@ pElement.addEventListener('click', changeParagraphText);
 
 let textInput = document.querySelector('input');
 
-function getInputText() {
-    console.log(textInput.value);
+function getInputText(event) {
+    // let inputText = textInput.value;
+    let inputText = event.target.value;
+    console.log(inputText);
+    console.log(event)
 }
 
 textInput.addEventListener('input', getInputText);

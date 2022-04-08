@@ -475,8 +475,19 @@
     - document.createElement(): gives you direct access to the created element - you can use that access to configure it via its properties and methods (e.g. add event listener).
 
 12-274
-    - use addEventListener for element, with the event name and the callback function
+    - use addEventListener for element, with the event name and the callback function.
+    - callback function should be only the name of the function without the parentheses, to prevent calling it once the event added to the element,
+    it will be called when the event triggered which is the correct behavior.
 
 12-275
     - ** input event vs keyup event: input event will trigger any input change in the field even if there was copy paste value
     but keyup will only work when keyboard is used.
+
+12-276
+    - we can get the value of element has an event attached to by:
+    1) get the element using querySelector.
+    2) get the element using the event argument. passed automatically by the browser once the event triggered.
+
+    - each event type has different event variable with different properties, but always there is the target property.
+
+
