@@ -495,4 +495,8 @@
     - maxlength: get it from the element attribute to be dynamic.
         let remainingChars = productNameInputElement.maxLength - enteredTextLength;
 
-
+12-279
+    - change element style by JS:
+    1) change the style property of element.
+        element.style.backgroundColor = 'red' ---> note backgroundColor not background-color because it is JS variable, and red between quotation to not treated as variable.
+    2) add css class
