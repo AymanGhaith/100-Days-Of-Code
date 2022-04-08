@@ -1,42 +1,68 @@
 body {
-    background-color: rgb(36, 35, 31);
-    font-family: sans-serif;
+  background-color: rgb(36, 35, 31);
+  font-family: sans-serif;
 }
 
-main {
-    width: 80%;
-    background-color: rgb(246, 245, 206);
-    padding: 1rem;
-    margin: 3rem auto;
-    border-radius: 5px;
+form {
+  margin: 3rem auto;
+  padding: 1rem;
+  width: 80%;
+  max-width: 50rem;
+  border-radius: 5px;
+  background-color: rgb(246, 245, 206);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.control {
+  margin-bottom: 1rem;
 }
 
 label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
-#product-name {
-    width: 50%;
+input {
+  font: inherit;
+  width: 50%;
+  font-size: 1.15rem;
+  padding: 0.35rem;
+  border: 1px solid rgb(204, 204, 204);
+  background-color: rgb(252, 249, 233);
+  color: rgb(53, 51, 39);
+  border-radius: 4px;
+  margin-right: 1rem;
+  vertical-align: middle;
 }
 
-.product-name {
-    display: flex;
-    margin-bottom: 1rem;
-}
-
-.product-name p {
-    margin: 0.5rem 1rem;
+input:focus {
+  background-color: rgb(253, 245, 196);
 }
 
 button {
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    background-color: rgb(206, 185, 56);
-
+  font: inherit;
+  cursor: pointer;
+  color: rgb(44, 43, 36);
+  background-color: rgb(209, 184, 23);
+  padding: 0.5rem 1.5rem;
+  border: 1px solid rgb(209, 184, 23);
+  border-radius: 4px;
 }
 
 button:hover {
-    background-color: rgb(155, 140, 41);
+  background-color: rgb(209, 197, 23);
+  border-color: rgb(209, 197, 23);
+}
+
+#charcount {
+  color: rgb(105, 101, 75);
+}
+
+input.warning {
+  background-color: rgb(248, 191, 145);
+}
+
+#remaining-chars.warning {
+  color: rgb(211, 109, 26);
 }

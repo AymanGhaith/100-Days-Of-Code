@@ -490,4 +490,9 @@
 
     - each event type has different event variable with different properties, but always there is the target property.
 
+12-277
+    - vertical-align: middle; can be used to align elements.
+    - maxlength: get it from the element attribute to be dynamic.
+        let remainingChars = productNameInputElement.maxLength - enteredTextLength;
+
 
