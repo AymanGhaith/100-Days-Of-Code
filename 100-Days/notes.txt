@@ -537,3 +537,6 @@
 
 13-299
     - as a convention name files like : loops-in-action.js
+
+13-300
+    - querySelectorAll: select all the element matches the query, not the first one only.

@@ -20,15 +20,19 @@ function updateCalculatedSum() {
 
 calculateSumButton.addEventListener('click', updateCalculatedSum);
 
-// First Challenge: Highlight links
+// Second Challenge: Highlight links
 
 const highlightLinksButton = document.querySelector('#highlight-links button');
 
 function highlightLinks() {
-    const linkElements = document.getElementById('highlight-links').getElementsByTagName('a');
-    for (link of linkElements) {
-        link.classList.add('highlight');
+    // const anchorElements = document.getElementById('highlight-links').getElementsByTagName('a');
+    const anchorElements = document.querySelectorAll('#highlight-links a');
+
+    for (const anchor of anchorElements) {
+        anchor.classList.add('highlight');
     }
 }
 
 highlightLinksButton.addEventListener('click', highlightLinks)
+
+//
