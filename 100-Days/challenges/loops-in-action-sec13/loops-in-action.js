@@ -35,4 +35,25 @@ function highlightLinks() {
 
 highlightLinksButton.addEventListener('click', highlightLinks)
 
-//
+// Third Challenge: Add user details list
+
+const displayUserDataButton = document.querySelector('#user-data button');
+
+const userData = {
+    firstName: 'Ayman',
+    lastName: 'Ghaith',
+    age: 33,
+}
+
+function displayUserData() {
+    const userInfoList = document.querySelector('#user-data ul');
+    userInfoList.innerHTML = '';
+
+    for (const info in userData) {
+        const userInfoListItem = document.createElement('li');
+        userInfoListItem.textContent = info.toUpperCase() + ': ' + userData[info];
+        userInfoList.append(userInfoListItem);
+    }
+}
+
+displayUserDataButton.addEventListener('click', displayUserData);
