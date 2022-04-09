@@ -544,3 +544,6 @@
 13-301
     - to clear all children, just make the innerHTML equal to empty
     userInfoList.innerHTML = '';
+
+13-302
+    - convert string number to number using "+" +"5"---> 5
