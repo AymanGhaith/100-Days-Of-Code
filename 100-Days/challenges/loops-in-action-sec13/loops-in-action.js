@@ -1,4 +1,4 @@
-// First Example: Sum numbers
+// First Challenge: Sum numbers
 
 const calculateSumButton = document.querySelector('#calculator button');
 
@@ -19,3 +19,16 @@ function updateCalculatedSum() {
 }
 
 calculateSumButton.addEventListener('click', updateCalculatedSum);
+
+// First Challenge: Highlight links
+
+const highlightLinksButton = document.querySelector('#highlight-links button');
+
+function highlightLinks() {
+    const linkElements = document.getElementById('highlight-links').getElementsByTagName('a');
+    for (link of linkElements) {
+        link.classList.add('highlight');
+    }
+}
+
+highlightLinksButton.addEventListener('click', highlightLinks)
