@@ -557,3 +557,8 @@
 13-307
     - always remember that you might need header inside the aside element, so in overlay for example, so it is better to give id for headers.
     - for header margin, it is nice to put 5% from left and right, to make it smaller with smaller screens, but for top and bottom it is ok to have it fixed.
+
+
+14-
+
+15-
