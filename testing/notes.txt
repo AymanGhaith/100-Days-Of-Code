@@ -1,0 +1,6 @@
+2-10
+    Jest : is a test runner tool and assertion library in the same time.
+
+2-11
+    one of jest issues is that does not support ES (ecma script) modules.
+
