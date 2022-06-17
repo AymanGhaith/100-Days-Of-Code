@@ -3,4 +3,5 @@
 
 2-11
     one of jest issues is that does not support ES (ecma script) modules.
+    const { add } = require('./math'); ====> this is a new way to import in js.
 
