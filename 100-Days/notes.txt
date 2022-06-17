@@ -4,7 +4,7 @@
     - vscode left bar called activity bar.
 
 2-35:
-    white element: element has no content between open and closing tag.
+    white element: element has no content between open and closing tag. (there is no closing tag like "link").
 
 2-37:
     no throttling: in network tap you can check the website for different connection speed.
@@ -24,12 +24,12 @@
     centering: you can use the text-align for a parent element in case of an image (wrap the image with a div).
     ** CSS structure: try to make it same as html structure, if there is a style for body, make it in the top of the css file.
 
-3-50:
+3-55:
     Descendants: Children of children
     Ancestor: the root or the higher level
     Sibling: on the same level
 
-3-51
+3-56
     Inheritance: in CSS only selected properties are inherited (width can't be inherited).
     Cascading: multi css rules applied on the same html element.
     Specificity: the more specific selector's rule win.
@@ -65,7 +65,7 @@
     - use semantic tags as much as you can.
 
 3-71
-    - vertical margins can't be applied on inline (non-replaced) element, so need to be change the display.
+    - Vertical margins can't be applied on inline (non-replaced) element, so need to be change the display.
     - 2 types of inline elements:
         1- replaced : like "img", the element replaced by an image from another page (link), vertical margin can be applied.
         2- non-replaced: like anchor "a"
@@ -75,12 +75,12 @@
     - link of shared css before the page css
 
 4-79
-    - text-align: aligns the text content or the inner content (in-line content), but for block content use margin.
+    - text-align: aligns the text content for the inner content (in-line content), but for block content use margin.
     - <h1>text</h1>: text inside the h1 is inline-content, but the h1 element is not.
 
 4-80
     - image size: just set the width, the browser will keep the aspect ratio for the height.
-    - padding or margin: used padding for header, because if he used the margin it will collapsed (margin collapsing) with the inner H1 element.
+    - padding or margin?: used padding for header, because if he used the margin it will collapsed (margin collapsing) with the inner H1 element.
 
 4-82
     - main element center: we can't center it by the text-align because the content (main) is not an inline content, it is a block.
@@ -91,9 +91,9 @@
     - style file organizing: put the element selectors first then put the class selectors.
 
 4-84
-    - anchor links: can point not only to html page, it also can linked to files to be downloaded.
+    - anchor links: can point not only to html page, it also can linked to files to be downloaded (href="file-name.pdf").
     - non-inheritable properties: these in developer tools appears in the inherited section but with some opacity or transparency,
-    not with filled colors same as inherited props.
+    not with filled colors same as inherited props. (so the whole class shown in the inherited section but not all of them applied to the element)
 
 4-85
     - bold, strong and em: em and strong are SEMANTIC tags in order to allow screen reader to read the text, but bold is only a style which will not be read.
@@ -562,3 +562,17 @@
 14-
 
 15-
+
+
+
+
+Important links:
+- netlify drop: https://app.netlify.com/drop
+- create favicon: favicon generator, favicon.io
+
+
+For the  DSP Team: Roberto Druetto
+for Basheer Al Momani: Chris Donaghey
+
+
+Removed appearance and settings cards headers
