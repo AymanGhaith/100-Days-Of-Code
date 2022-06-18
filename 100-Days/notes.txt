@@ -262,8 +262,8 @@
 
 8-171
     - Responsive, Mobile first, Desktop first.
-    - portrait: smartphone(480px), tablet(768px)
-    - landscape notebook (1024px), desktop(1200px), TV(>1200)
+    - portrait: smartphone(480px), tablet(768px).
+    - landscape notebook (1024px), desktop(1200px), TV(>1200).
     - Mobile first: use it for traditional approach, office based audience and feature-rich websites.
     - Mobile first: ( mobile --->768px--->1200px----> desktop), use min-width with @media
     - Desktop first: use it for functional approach, lifestyle/news audience and content based.
@@ -271,11 +271,11 @@
 
 8-172
     - media query should be in the end of the css file to not be overwritten by the original css.
-    - make the order of thd rules in the media query same as in css file.
+    - make the order of the rules in the media query same as in css file.
 
 8-174
-    - internal link:
-    - target selector:
+    - internal link: Add defined ID to the URL --> href="#id"
+    - target selector: Activate css rule if defined ID selected in the URL. --> #id:target
 
 8-175
     - menu button: it is better to be anchor since it will make navigation.
@@ -287,7 +287,7 @@
     - use aside tag for the side drawer.
     - side-drawer should occupy the entire page.
     - side-drawer should be taken out of the document flow (position fixed or absolute)
-    - display none or removing the fixed position will return hide the drawer and show the
+    - display none or removing the fixed position will return hide the drawer and show the initial page.
 
 8-177
     - url fragment (URL.hash): is a piece of the url,
