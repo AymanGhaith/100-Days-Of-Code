@@ -1,3 +1,4 @@
+this is new update
 2-26:
     - code formatting, plugin: use Prettier for code formatting. (option + shift + F)
     - go to code -> preferences -> settings -> formatter (select prettier)
